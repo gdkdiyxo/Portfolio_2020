@@ -128,40 +128,7 @@ select {
 
 
 
-.postload {
-  visibility: hidden;
-  display: none;
-}
 
-.bottom-webgl-text-div {
-  position: absolute;
-  bottom: 15vh;
-  text-align: center;
-}
-
-.bottom-webgl-text {
-  padding: 0px 0px 0px 0px;
-}
-
-.start-page-text {
-  padding-right: 30px;
-  padding-left: 30px;
-  padding-bottom: 20px;
-  font-size: calc(24px + (20 - 18) * (100vw - 400px) / (800 - 400));
-}
-
-.ryan-text {
-  padding-right: 30px;
-  padding-left: 30px;
-  padding-bottom: 20px;
-  font-size: calc(32px + (24 - 18) * (100vw - 400px) / (800 - 400));
-}
-
-.start-page-content-div {
-  display: inline-block;
-  text-align: center;
-  justify-content: center;
-}
 
 #start-button {
   margin: 0 auto;
