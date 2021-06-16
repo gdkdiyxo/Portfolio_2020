@@ -126,8 +126,19 @@ select {
   -ms-user-select: none; /* IE10+ */
 }
 
-
-
+.preload-overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  opacity: 0.9;
+}
 
 .postload {
   visibility: hidden;
